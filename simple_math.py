@@ -13,3 +13,7 @@ class TestSimpleMath(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+    @staticmethod
+    def soustraction(a, b):
+        return a - b
